@@ -1,5 +1,4 @@
-const world = "🗺️";
+import { App } from './app/app.class';
 
-export function hello(word: string = world): string {
-  return `Hello ${world} from me`;
-}
+const app = new App();
+app.run();
