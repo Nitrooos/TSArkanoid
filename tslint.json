@@ -5,7 +5,8 @@
     ],
     "jsRules": {},
     "rules": {
-        "max-line-length": [true, { "limit": "80" }]
+        "max-line-length": [true, { "limit": "80" }],
+        "quotemark": [true, "single"]
     },
     "rulesDirectory": []
 }
