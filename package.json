@@ -1,0 +1,28 @@
+{
+  "name": "arkanoid",
+  "version": "0.0.1",
+  "description": "Million clone of Arkanoid, exactly the same as any other",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nitrooos/TSArkanoid.git"
+  },
+  "keywords": [
+    "typescript",
+    "arkanoid"
+  ],
+  "author": "Bartosz Kostaniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitrooos/TSArkanoid/issues"
+  },
+  "homepage": "https://github.com/Nitrooos/TSArkanoid#readme",
+  "devDependencies": {
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  }
+}
