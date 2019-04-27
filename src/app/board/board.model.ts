@@ -24,7 +24,7 @@ export class Board {
     return Board.BLOCKS_IN_ROW;
   }
 
-  get valid() {
+  get valid(): boolean {
     return this.blocksMap.every((row: number[]) =>
       row.length === Board.BLOCKS_IN_ROW,
     );

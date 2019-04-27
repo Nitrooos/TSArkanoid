@@ -7,6 +7,6 @@ describe('Board class', () => {
   const board = new Board();
 
   it('should be valid with default map', () => {
-    expect(board.valid).to.be.true;
+    expect(board.valid).to.equal(true);
   });
 });
