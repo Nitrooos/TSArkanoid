@@ -1,4 +1,4 @@
 import { App } from './app/app.class';
 
-const app = new App('canvas');
+const app = new App();
 app.run();
