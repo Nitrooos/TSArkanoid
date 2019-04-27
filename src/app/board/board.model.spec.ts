@@ -1,5 +1,3 @@
-import 'amd-loader';
-
 import { expect } from 'chai';
 import 'mocha';
 
