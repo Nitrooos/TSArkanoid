@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  max-width: calc(64*13px);
+  width: 100%;
+}
