@@ -4,7 +4,7 @@
   "description": "Million clone of Arkanoid, exactly the same as any other",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register src/**/*.spec.ts",
     "lint": "tslint -p tsconfig.json"
   },
   "repository": {
@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/Nitrooos/TSArkanoid#readme",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "amd-loader": "0.0.8",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.1.0",
     "tslint": "^5.15.0",
     "typescript": "^3.4.3"
   }
